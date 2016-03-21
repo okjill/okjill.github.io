@@ -127,6 +127,18 @@ div#about-page h3 {
   text-align: center;
 }
 
+div#about-page a {
+  color: black;
+}
+
+div#about-page a:hover {
+  background: #FFDC00;
+}
+
+div#about-page a:visited {
+  color: #39CCCC;
+}
+
 div#about-page p {
   padding: 5px;
 }

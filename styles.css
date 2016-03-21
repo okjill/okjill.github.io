@@ -14,7 +14,8 @@ body {
 }
 
 main {
-  padding-bottom: 100px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 #header-img img {
@@ -108,6 +109,61 @@ div.box {
   background: #FF7F50;
 }
 
+div#about-page {
+  position: relative;
+  width: 33%;
+  border: 1px solid #39CCCC;
+  margin: -100px auto 130px auto;
+}
+
+div#about-page h3 {
+  background-color: #39CCCC;
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: 'Wire One', sans-serif;
+  font-size: 33px;
+  color: black;
+  text-align: center;
+}
+
+div#about-page p {
+  padding: 5px;
+}
+
+div#disco-page {
+  position: relative;
+  width: 33%;
+  border: 1px solid #E80C7A;
+  margin: -100px auto 130px auto;
+}
+
+div#disco-page h3 {
+  background-color: #E80C7A;
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: 'Wire One', sans-serif;
+  font-size: 33px;
+  color: black;
+  text-align: center;
+}
+
+div#disco-page p {
+  padding: 5px;
+}
+
+table th {
+  text-align: left;
+  font-size: 19px;
+  padding-left: 10px;
+}
+
+table td {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
@@ -189,6 +245,16 @@ footer nav a:hover:not(.active-about) {
   }
 
   #gallery {
+    width: 100%;
+  }
+
+  div#about-page {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  div#disco-page {
+    margin-top: 50px;
     width: 100%;
   }
 }

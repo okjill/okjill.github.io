@@ -1,0 +1,29 @@
+1. What are classes? Be sure to define the following terms in your explanation and describe the relationships between them:
+
+- class: a blueprint of all the characteristics (attributes) and behaviors (methods) of a certain type of object
+- state: defines the attributes of a class's instances
+- behavior: method of a class that interacts with its state to produce results
+- instance variable: 
+    - preceded by an @ symbol
+    - part of the state of a class
+    - available to every method in that class 
+    - every instance of a class will have its own unique copy of an instance variable
+- instance method: 
+    - called on an instance of a class
+    - used when the functionality you're implementing is tied to the identity of a particular object 
+    - example: if you have a List class, you need an actual instance of a list before you can call a method like add_item on that list
+
+2. What are attributes
+    Attributes are the specific characteristics of an object, a special type of variable that you can use inside a class declaration.
+
+3. Give an example of a real world object, and describe how you might assign its attributes if you were to design a class to represent that object.
+    Attributes of a TV might be its screen size, screen resolution, screen technology, refresh rate, and number of HDMI ports. When creating a TV class, I'd design it so the attributes are passed in on initialization. Because a TV's characteristics can vary by model, I'd want to be able to specify its attributes when I created a new instance. I might specify that its screen size is 65 inches, it has a 1080p resolution, LED screen technology, a 240 Hz refresh rate, and 4 HDMI ports. 
+
+4. What is the purpose of the initialize method? When does it run?
+    The initialize method runs any time a new instance of a class is created. You can declare attributes in your initialization method, that way all other instance methods in your class can rely on that attribute existing.
+
+5. What are modules?
+    A module is a group of related methods. 
+
+6. What are the different ways you can use a module?
+    A module can be used for namespacing or as a mixin. Namespacing is a way to group methods, organize clutter, and prevent different programmers from unknowingly overwriting common methods of the same name. Mixins are a group of methods that can be mixed in with different classes to add functionality.

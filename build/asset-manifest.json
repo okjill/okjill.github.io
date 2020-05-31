@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13952f94.chunk.css",
+    "main.js": "/static/js/main.be32039a.chunk.js",
+    "main.js.map": "/static/js/main.be32039a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.985fca6c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.985fca6c.js.map",
+    "static/js/2.574130e3.chunk.js": "/static/js/2.574130e3.chunk.js",
+    "static/js/2.574130e3.chunk.js.map": "/static/js/2.574130e3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0a10dcd6d5d009a8c37df26b71811cd2.js": "/precache-manifest.0a10dcd6d5d009a8c37df26b71811cd2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.13952f94.chunk.css.map": "/static/css/main.13952f94.chunk.css.map",
+    "static/js/2.574130e3.chunk.js.LICENSE.txt": "/static/js/2.574130e3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/GlamourAbsolute_Regular.08824461.otf",
+    "static/media/jill.png": "/static/media/jill.a1ee4a9a.png",
+    "static/media/logo.svg": "/static/media/logo.ae6a6902.svg",
+    "static/media/resume.png": "/static/media/resume.18c0a490.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.985fca6c.js",
+    "static/js/2.574130e3.chunk.js",
+    "static/css/main.13952f94.chunk.css",
+    "static/js/main.be32039a.chunk.js"
+  ]
+}

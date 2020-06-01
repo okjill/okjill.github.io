@@ -75,8 +75,10 @@
   }
 
   .info-card-img {
-    max-height: 70%;
-    max-width: 70%;
+    border-radius: 9px;
+    object-fit: contain;
+    max-height: 90%;
+    max-width: 90%;
   }
 
   .resume-button {

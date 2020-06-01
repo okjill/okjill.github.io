@@ -10,12 +10,12 @@ class InfoCard extends React.Component {
     if (type === 'main') {
       return (
         <div className='info-card'>
-          <img className='info-card-img' src={mainImg} alt='Jill Moore image' />
+          <img className='info-card-img' src={ mainImg } alt='Jill Moore' />
         </div>
       );
     } else if (type === 'resume') {
       return <Resume />;
-    }else {
+    } else {
       return <div className='info-card'></div>;
     }
   }

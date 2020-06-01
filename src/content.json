@@ -9,6 +9,14 @@
     "pink", 
     "purple"
   ],
+  "colorsNoBeige": [
+    "blue",
+    "green",
+    "marigold",
+    "orange",
+    "pink", 
+    "purple"
+  ],
   "colors2": [
     {"color": "beige", "text": ""},
     {"color": "green", "text": "RESUME"},

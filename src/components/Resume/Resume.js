@@ -1,15 +1,45 @@
 import React from 'react';
 
-import resume from '../../assets/resume.png';
+import content from '../../content.json';
+import resumePdf from '../../assets/resume.pdf';
+import resumePng from '../../assets/resume.png';
 
-export default function Resume() {
+class Resume extends React.Component {
+  render = () => {
+    const actions = ['DOWNLOAD', 'OPEN'];
+    const buttons = content.colorsNoBeige.map((color, id) => {
+      const action = actions[id];
+      let anchorProp, className;
+
+      if (action === 'DOWNLOAD') {
+        anchorProp = { 'download': resumePdf };
+        className = `resume-button ${color}`;
+      } else if (action === 'OPEN') {
+        anchorProp = { 'target': '_blank' };
+        className = `resume-button ${color}`;
+      } else {
+        className = `resume-button ${color} no-action`;
+      }
+
+      return <a
+        key={ id }
+        className={ className }
+        href={ resumePdf }
+        {...anchorProp}
+      >
+        { action }
+      </a>;
+    });
+
     return (
       <div className='info-card'>
-        <img className='resume-thumbnail' src={ resume } alt='Jill Moore resume' />
+        <img className='resume-thumbnail' src={ resumePng } alt='Jill Moore resume' />
         <div className='resume-options'>
-          <button className='resume-button'>DOWNLOAD</button>
-          <button className='resume-button'>ZOOM</button>
+          { buttons }
         </div>
       </div>
     );
+  }
 };
+
+export default Resume;
